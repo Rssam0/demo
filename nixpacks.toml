@@ -1,2 +1,5 @@
 [phases.setup]
 nixPkgs = ["php83", "php83Extensions.mbstring", "php83Extensions.dom", "php83Extensions.zip", "php83Extensions.gd"]
+[variables]
+NODE_VERSION = "20"
+NPM_CONFIG_LEGACY_PEER_DEPS = "true"
